@@ -1,0 +1,128 @@
+@import url('https//font.googleapis.com/css?family=Poppins:wght@300;400;500;6000;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: ellipse;
+    font-family:'Poppins',sans-serif;
+}
+body {
+
+background: #5b09f3;
+}
+.header{
+    position: fixed ;
+    top: 0;
+    left: 0;
+    width: 80%;
+        padding:30px 8%;
+        background: transparent;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        z-index: 100;
+}
+.logo{
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    text-decoration: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+
+
+.navbar a {
+    font-size: 109%;
+    font-family: Georgia, 'Times New Roman', Times, serifCopperplate;
+    color: #000000;
+    text-decoration: aqua;
+    font-weight: 400;
+    margin: 0 10px;
+    transition: .4s;
+
+}
+ .navbar a:hover{
+    color: aqua;
+    
+ }
+ .navbar a.active{
+    color: cyan;
+    font-size: 150%;
+}
+.social-media a {
+    font-size: 100%;
+    color: #000000;
+    text-decoration: #fdfdfd;
+    font-weight: 400;
+
+}
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 165px;
+    height: 40;
+}
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    transform: rotate(45deg);
+}
+.social-media a i {
+    color: #000000;
+    font-size: 100%;
+    transform: rotate(-45deg);
+}
+.social-media a:hover {
+    color: rgb(0, 102, 255);
+    font-size: 150%;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 50px 8% 0;
+    /* overflow: hiddem; */
+}
+.home-img {
+    position: relative ;
+    width: px;
+    height: 450px;
+}
+.home-content{
+    max-width: 540px;
+    font-size: 100px;
+    line-height: 1,2;
+}
+.home-content h3{
+    font-size: 50px;
+    color:rgb(4, 4, 255);
+}
+.home-content p {
+    font-size: 16px;
+    margin: 15px 0 30;
+}
+.btn {
+    display:inline-flexbox;
+    padding: 10px 28px ;
+    background: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    box-shadow: 0 0 40px rgb(0, 0, 0);
+    font-size: 26px;
+    color: aqua;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 1s;
+    
+}  
+
